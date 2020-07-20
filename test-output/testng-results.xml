@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37047" started-at="2020-07-17T17:29:42 IST" finished-at="2020-07-17T17:30:19 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37047" started-at="2020-07-17T17:29:42 IST" finished-at="2020-07-17T17:30:19 IST">
+      <class name="tests.Login_page">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Login_page@694e1548]" name="setUp" is-config="true" duration-ms="5451" started-at="2020-07-17T17:29:42 IST" finished-at="2020-07-17T17:29:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Login_page@694e1548]" name="setUp" is-config="true" duration-ms="4898" started-at="2020-07-17T17:29:48 IST" finished-at="2020-07-17T17:29:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login_(java.lang.String, java.lang.String)[pri:0, instance:tests.Login_page@694e1548]" name="login_" duration-ms="23266" started-at="2020-07-17T17:29:53 IST" data-provider="test1Data" finished-at="2020-07-17T17:30:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manager@argon.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:tests.Login_page@694e1548]" name="finish" is-config="true" duration-ms="3004" started-at="2020-07-17T17:30:16 IST" finished-at="2020-07-17T17:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- tests.Login_page -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
